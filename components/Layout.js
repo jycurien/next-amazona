@@ -77,10 +77,6 @@ export default function Layout({ title, description, children }) {
       <Head>
         <title>{title ? `${title} - Next Amazona` : 'Next Amazona'}</title>
         {description && <meta name='description' content={description}></meta>}
-        <link
-          rel='stylesheet'
-          href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'
-        />
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
